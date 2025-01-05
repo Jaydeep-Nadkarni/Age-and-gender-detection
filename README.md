@@ -24,9 +24,6 @@ To run this project, you need the following:
 
 You can install the required libraries using **pip**:
 
-```bash
-pip install opencv-python numpy dlib
-
 Models
 This project uses pre-trained models for face detection, age prediction, and gender prediction. You will need to download the following models:
 
@@ -36,8 +33,20 @@ Gender Detection: gender_net.caffemodel and gender_deploy.prototxt
 You can download the models from the following links:
 
 Face Detection Model
+Model: res10_300x300_ssd_iter_140000_fp16.caffemodel
+Prototxt: deploy.prototxt
+Author: OpenCV (Based on Caffe's SSD model)
+Source: OpenCV Model Repository
 Age Detection Model
+Model: age_net.caffemodel
+Prototxt: age_deploy.prototxt
+Author: OpenCV (Pre-trained on a large dataset of faces)
+Source: OpenCV Model Repository
 Gender Detection Model
+Model: gender_net.caffemodel
+Prototxt: gender_deploy.prototxt
+Author: OpenCV (Pre-trained on a large dataset of faces)
+Source: OpenCV Model Repository
 Place these models in a models/ directory within the project.
 
 Usage
@@ -73,9 +82,6 @@ The system captures real-time frames from the webcam and processes each frame to
 Example Output
 After running the code, you will see the webcam feed with bounding boxes around detected faces. The system will also display the predicted age group and gender, like:
 
-yaml
-Copy code
-Age Group: (21-24), Gender: Male
 Troubleshooting
 If the webcam feed doesn't open, ensure that you have a working webcam and that the required permissions are granted to access it.
 If there are issues with missing model files, ensure you've downloaded and placed them correctly in the models/ folder.
@@ -93,30 +99,7 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Author
-Your Name
-GitHub: @yourusername
-Email: your.email@example.com
-markdown
-Copy code
-
-### How this README is structured:
-1. **Project Overview**: Brief description of the project.
-2. **Requirements**: Necessary tools and libraries.
-3. **Installation Instructions**: How to set up the project.
-4. **Usage**: How to run the code, including the commands.
-5. **Code Explanation**: Detailed breakdown of how the core functionality works.
-6. **Output Example**: What users can expect when they run the application.
-7. **Contributing**: How others can contribute to the project.
-8. **License**: Standard open-source licensing information.
-
-### To Customize:
-- Replace the placeholders like `https://github.com/yourusername/Face-and-Age-Detection` with your actual GitHub repository link.
-- Modify the "Author" section with your details.
-
-This README should give users enough information to understand, set up, and use your Face and Age Detection system!
-
-
-
-
-
+Jaydeep Nadkarni
+GitHub: @Jaydeep-Nadkarni
+Email: jaydeepnadkarni123@gmail.com
 
