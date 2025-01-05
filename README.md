@@ -100,6 +100,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Author
 Jaydeep Nadkarni
+
 GitHub: @Jaydeep-Nadkarni
+
 Email: jaydeepnadkarni123@gmail.com
 
