@@ -54,7 +54,7 @@ Clone this repository to your local machine:
 
 ```bash
 Copy code
-git clone https://github.com/yourusername/Face-and-Age-Detection.git
+git clone https://github.com/Jaydeep-Nadkarni/Face-and-Age-Detection.git
 cd Face-and-Age-Detection
 Download the pre-trained models and place them in the models/ folder.
 ```
