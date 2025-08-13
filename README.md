@@ -3,7 +3,7 @@
 This project demonstrates a **Face Detection** and **Age Prediction** system using **OpenCV** and pre-trained **Caffe** models. The application captures video input from the webcam, detects faces, and predicts the age and gender of the person.
 
 ## Features 
-   
+    
 - **Face Detection**: Detects faces in real-time using a pre-trained Caffe model.
 - **Age Prediction**: Estimates the age group of a detected face based on a pre-trained age detection model.
 - **Gender Prediction**: Identifies the gender (Male/Female) based on facial features.
