@@ -13,7 +13,7 @@ This project demonstrates a **Face Detection** and **Age Prediction** system usi
 
 ## Requirements
 
-To run this project, you need the following:
+To run this project, you need the following: 
 
 - **Python 3.x**
 - **OpenCV**: For computer vision tasks like face detection and image processing.
