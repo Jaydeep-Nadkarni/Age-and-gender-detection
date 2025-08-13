@@ -9,7 +9,7 @@ This project demonstrates a **Face Detection** and **Age Prediction** system usi
 - **Gender Prediction**: Identifies the gender (Male/Female) based on facial features.
 - **Real-time Detection**: Works with your webcam to detect and predict age and gender.
 - **Confidence Threshold**: Only faces with a confidence score greater than a threshold are processed.
-- **Responsive Interface**: Displays detected information (Age and Gender) in real-time on the webcam feed.
+- **Responsive Interface**: Displays detected information (Age and Gender) in real-time on the webcam feed. 
 
 ## Requirements
 
